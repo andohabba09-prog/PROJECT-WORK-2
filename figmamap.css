@@ -1,0 +1,148 @@
+.see-location{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: black;
+    color: #f3f3f3;
+    font-size: 2.4em;
+    padding: 10px 22px;
+    cursor: pointer;
+    
+    
+}
+.map{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.middle{
+    margin: 0;
+    padding: 0;
+}
+.locationContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background: #191919;
+    padding: 40px 32px;
+    box-sizing: border-box;
+        
+}
+.location-title{
+     flex-basis: 25%;
+     font-size: 1.5rem;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing:-2px;
+     line-height:1;
+     color: #f3f3f3;
+     margin-left: 60px;
+     margin-top: 60px;
+}
+.address-title{
+    color: #d68a5b;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -170px;
+    margin-left: 600px;
+
+            
+    }
+.address-info{
+        margin-bottom: 18px;
+        font-size: 1em;
+        line-height: 1.5;
+        color: #e0e0e0;
+        margin-left: 600px;
+        margin-top: 10px;
+        
+
+
+
+    }
+    .address-description{
+        font-size: 1em;
+        color: #c4c4c4;
+        line-height: 1.6;
+        margin-top: 60px;
+        text-indent: right;
+        margin-left: 600px;
+        margin-top: 20px;
+    }
+.footer{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.footerContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #D5966C;
+  box-sizing: border-box;
+  
+
+}
+.left{
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    margin-right: 48px; /*increased space for visual balance*/
+    color: #232629;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-family: Arial, sans-serif;
+   
+}
+.right{
+    font-size: 1.05em;
+    color: #333;
+    max-width: 430px;
+    line-height: 1.5em;
+    font-weight: normal;
+    margin-top: 60px;
+    
+}
+.socials{
+    margin-top: 70px;
+}
+@media (max-width: 1500px) {
+     h1{
+        color: auto;
+        
+    }
+     h2{
+        color: auto;
+    }
+    h3{
+        color: auto;
+    }
+    
+}
+@media (max-width: 1000px) {
+   h1{
+        color: aquamarine; 
+        
+    }
+    h2{
+        color:azure;
+    }
+    h3{
+        color: brown;
+    }
+}
+@media (max-width: 500px) {
+    h1{
+        color: palevioletred ;
+        
+    }
+     h2{
+        color: red;
+    }
+    h3{
+        color: papayawhip;
+    }
+}
